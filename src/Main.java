@@ -65,6 +65,7 @@ public class Main {
 //          list.stream()
 //                .distinct()
 //                .forEach(System.out::println);
+
 //            list.stream()
 //                    .map(s -> s + "_1")
 //                    .forEach(System.out::println);
@@ -102,6 +103,16 @@ public class Main {
 //                        .average()
 //                        .getAsDouble();
 //        System.out.println(averageAge);
+
+//            list.stream()
+//                    .skip(2)
+//                    .limit(5)
+//                    .forEach(System.out::println);
+
+//        list.stream()
+//                .limit(5)
+//                .skip(2)
+//                .forEach(System.out::println);
 
 
     }
